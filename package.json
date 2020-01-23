@@ -1,14 +1,14 @@
 {
-  "name": "karma-tape-reporter",
-  "description": "Karma plugin that reports TAP formated results",
-  "version": "1.0.3",
-  "author": "Terin Stock <terinjokes@gmail.com>",
+  "name": "karma-stable-tape-reporter",
+  "description": "Karma plugin that reports TAP formated results with dependencies fixed",
+  "version": "1.0.0",
+  "author": "Shafeeq Ur Rahman <shafeeq.rahman01@gmail.com>",
   "bugs": {
-    "url": "https://github.com/terinjokes/karma-tape-reporter/issues"
+    "url": "https://github.com/shafeeqonline/karma-stable-tape-reporter/issues"
   },
   "dependencies": {
     "indent-string": ">=1.2.0 <2.0.0-0",
-    "js-yaml": "git+https://github.com/terinjokes/js-yaml.git#block-literal-newlines-preserved",
+    "js-yaml": "3.13.1",
     "printf": ">=0.2.0 <0.3.0-0",
     "useragent": ">=2.0.9 <3.0.0-0"
   },
@@ -20,7 +20,7 @@
     "sinon": ">=1.10.3 <2.0.0-0",
     "tape": ">=2.14.0 <3.0.0-0"
   },
-  "homepage": "https://github.com/terinjokes/karma-tape-reporter",
+  "homepage": "https://github.com/shafeeqonline/karma-stable-tape-reporter",
   "keywords": [
     "karma-plugin",
     "karma-reporter",
@@ -31,7 +31,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/terinjokes/karma-tape-reporter.git"
+    "url": "https://github.com/shafeeqonline/karma-stable-tape-reporter.git"
   },
   "scripts": {
     "codeclimate": "cat ./coverage/lcov.info|codeclimate",
